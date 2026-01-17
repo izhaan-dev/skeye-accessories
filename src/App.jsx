@@ -20,7 +20,7 @@ function ScrollToTop() {
 export default function App() {
   return (
     <CartProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/skeye-accessories">
         <ScrollToTop />
         <div className="min-h-screen flex flex-col"> {/* Wrapper to push footer down */}
           
